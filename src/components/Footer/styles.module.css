@@ -1,0 +1,40 @@
+#footer {
+  background: #13121a;
+  color: #fff;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  padding: 1rem 0;
+}
+
+#footer .copyright p {
+  padding-top: 2rem;
+  text-align: center;
+}
+
+#footer .logo {
+  text-align: center;
+}
+
+#footer .logo img {
+  width: 30%;
+}
+
+#footer .icons {
+  padding-top: 2rem;
+  align-items: center;
+  display: flex;
+}
+
+#footer .icons p {
+  padding-right: 1rem;
+  padding-top: 1rem;
+}
+
+#footer .icons img {
+  width: 8%;
+  padding-left: 0.2rem;
+}
