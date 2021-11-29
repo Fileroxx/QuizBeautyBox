@@ -112,12 +112,12 @@ export default function Tela8() {
 
             
          
-            <div className={styles.pinkBlush}>
-                    <div className="pinkBlush">
+            <div className={styles.creamContour}>
+                    <div className="creamContour">
                     
-                    <img  src="pinkBlush.png" alt="" data-item="pinkBlush"/>
+                    <img  src="creamContour.png" alt="" data-item="creamContour"/>
                    
-                    <p>PINK</p>
+                    <p>CREAM</p>
 
                     </div>
 
@@ -126,11 +126,11 @@ export default function Tela8() {
 
 
 
-                <div className={styles.peachBlush}>
-                     <div className="peachBlush">
-                        <img src="peachBlush.png" alt="" data-item="peachBlush"/>
+                <div className={styles.powderContour}>
+                     <div className="powderContour">
+                        <img src="powderContour.png" alt="" data-item="powderContour"/>
 
-                        <p>PEACH</p>
+                        <p>POWDER</p>
 
                      </div>
                 </div>
@@ -145,27 +145,15 @@ export default function Tela8() {
 
             <div className={styles.coluna2}>
 
-            <div className={styles.neutralBlush}>
-                 <div className="neutralBlush">
-                    <img src="neutralBlush.png" alt="" data-item="neutralBlush"/>
+            <div className={styles.stickContour}>
+                 <div className="stickContour">
+                    <img src="stickContour.png" alt="" data-item="stickContour"/>
 
-                    <p>NEUTRAL</p>
+                    <p>STICK</p>
 
                   </div>
             </div>
 
-
-
-            <div className={styles.bronzeBlush}>
-              <div className="bronzeBlush"> 
-                <img src="bronzeBlush.png" alt="" data-item="bronzeBlush" />
-
-                <p>BRONZE</p>
-               </div>
-            </div>
-
-
-
             </div>
 
 
@@ -174,7 +162,7 @@ export default function Tela8() {
 
 
 
-            <Link href="/next6">
+            <Link href="/next9">
             
                 <Button>
                     Next

@@ -19,3 +19,17 @@
   font-size: 1.2rem;
   font-weight: 600;
 }
+
+@media screen and (max-width: 767px) {
+  #header {
+    padding: 1rem 1rem;
+  }
+
+  #header .menu .nome p {
+    font-size: 1rem;
+  }
+
+  #header .menu .logo img {
+    width: 60%;
+  }
+}

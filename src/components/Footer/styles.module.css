@@ -35,3 +35,24 @@
   padding-left: 0.2rem;
   margin-top: -1rem;
 }
+
+@media screen and (max-width: 767px) {
+  #footer {
+    position: absolute;
+    width: 100%;
+    top: 100;
+  }
+
+  #footer .icons {
+    display: none;
+  }
+
+  #footer .copyright {
+    display: none;
+  }
+
+  #footer .logo img {
+    width: 70%;
+    padding: 1rem 0;
+  }
+}

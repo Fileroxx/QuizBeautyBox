@@ -47,7 +47,7 @@ export default function Tela1() {
         <div className={styles.menu}>
             <Row>
 
-            <Col>
+            <Col xs={3} md={4}>
 
             <div className={styles.back}>
                 <p>
@@ -58,7 +58,7 @@ export default function Tela1() {
             </Col>  
 
 
-            <Col>
+            <Col xs={6} md={4}>
 
             <div className={styles.titulo}>
 
@@ -69,7 +69,7 @@ export default function Tela1() {
             </Col>
 
 
-            <Col>
+            <Col xs={3} md={4}>
 
             <div className={styles.numbers}>
 

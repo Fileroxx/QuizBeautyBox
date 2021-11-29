@@ -68,12 +68,7 @@
 }
 
 #tela img:hover {
-  transform: scale(1.1);
-}
-
-#tela .vibrantEyeliner {
-  display: flex;
-  justify-content: left;
+  transform: scale(1.03);
 }
 
 #tela button {
@@ -84,8 +79,35 @@
   color: #fff;
   text-transform: capitalize;
   margin-top: 3rem;
+  margin-bottom: 3rem;
   font-size: 1.5rem;
   font-weight: 300;
   margin-bottom: 3rem;
   transition: all ease 0.4s;
+}
+
+@media screen and (max-width: 767px) {
+  #tela {
+    height: auto;
+  }
+
+  #tela .titulo h2 {
+    font-size: 1.8rem;
+    padding: 0;
+  }
+
+  #tela .coluna1,
+  .coluna2,
+  .coluna3 {
+    flex-direction: column;
+  }
+
+  #tela img {
+    width: 90%;
+    margin-top: 2rem;
+  }
+
+  #tela button {
+    width: 90%;
+  }
 }
