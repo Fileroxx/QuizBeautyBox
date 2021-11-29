@@ -1,0 +1,91 @@
+#tela {
+  padding-top: 5rem;
+  height: 100vh;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+}
+
+#tela .menu {
+  align-items: center;
+}
+
+#tela .back p {
+  font-weight: 300;
+  font-size: 1rem;
+  color: #12121a;
+}
+
+#tela .titulo h2 {
+  font-size: 3rem;
+  color: #110c12;
+  font-weight: 700;
+}
+
+#tela .numbers p {
+  font-weight: 300;
+  color: #12121a;
+  font-size: 1rem;
+}
+
+#tela h5 {
+  padding-top: 3rem;
+  font-weight: 600;
+  font-size: 1.5rem;
+  color: #110c12;
+}
+
+#tela .coluna1 {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 3rem;
+}
+
+#tela .coluna2 {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 3rem;
+}
+
+#tela .coluna3 {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 3rem;
+}
+
+#tela .coluna1,
+.coluna2,
+.coluna3 p {
+  font-size: 1.2rem;
+}
+
+#tela p {
+  padding-top: 1rem;
+}
+
+#tela img {
+  cursor: pointer;
+  transition: all ease 0.4s;
+}
+
+#tela img:hover {
+  transform: scale(1.1);
+}
+
+#tela .vibrantEyeliner {
+  display: flex;
+  justify-content: left;
+}
+
+#tela button {
+  width: 50%;
+  padding: 0.5rem 0;
+  background: #110c12;
+  border-radius: 20px;
+  color: #fff;
+  text-transform: capitalize;
+  margin-top: 3rem;
+  font-size: 1.5rem;
+  font-weight: 300;
+  margin-bottom: 3rem;
+  transition: all ease 0.4s;
+}
